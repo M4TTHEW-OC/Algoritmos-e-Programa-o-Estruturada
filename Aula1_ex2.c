@@ -2,23 +2,30 @@
 
 int main(){
     //definição de variável
-    int n1;
-    int n2;
-    int n3;
+    //(inteiro)int n1, n2, n3;
+
+    float n1, n2, n3;
+    
     
     printf("Digite o n1:");
-    scanf("%d", &n1);
+    //scanf("%d", &n1); para quando a variável  for int
+    scanf("%f", &n1);
 
-    int soma;
+   // int soma, divisao, multiplicar, diminuir, media; 
+    float soma, divisao, multiplicar, diminuir, media; 
+
+
+    /*int soma;
     int divisao;
     int multiplicar;
     int diminuir;
-    int media;
+    int media;*/
     printf("Digite o n2:");
-    scanf("%d", &n2);
-
+    //scanf("%d", &n2); para quando a variável  for int 
+    scanf("%f", &n3);
     printf("Digite o n3:");
-    scanf("%d", &n3);
+    //scanf("%d", &n3); para quando a variável  for int 
+    scanf("%f", &n3);
 
     soma = n1 + n2 + n3;
     diminuir = n1 - n2 - n3;
