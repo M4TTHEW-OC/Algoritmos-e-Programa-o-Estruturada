@@ -8,7 +8,7 @@
         if(idade>= 24){
             printf("Voce e um adulto");
         
-        }else if(idade>= 18 &&  idade<24){
+        }else if(idade>= 18 && idade<24){
             printf("Maior de idade!");
         }else{
             printf("Menor de idade!");
