@@ -35,7 +35,9 @@ int main()
     printf("reprovado");
 
     }
-    return 0;
+
+    
 
     }
+    return 0;
 }

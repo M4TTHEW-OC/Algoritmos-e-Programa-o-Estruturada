@@ -49,12 +49,21 @@ int main()
         else {
             printf("Nem um deles e impar ");
         }
+
+        n1%2!= 0
         */
-        if(n1% 2 != 0){
-                printf(" Numero 1 e impar ");
+        if(n1%2!= 0 && n2%2!=0){
+         printf(" Numero 1 e Numero 2 sao impares ");
+            } else if  (n1%2!=0){
+            printf("Somente o Numero 1 e impar ");
+     
+            } else if(n2%2!= 0){
+            printf("Somente o Numero 2 e impar ");
+            }else{
+            printf("Nem um dos Numeros sao impares");
         }
     }
 
-
     return 0;
+    
 }
