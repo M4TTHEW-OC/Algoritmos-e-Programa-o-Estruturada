@@ -29,7 +29,7 @@ if (total == 0)
         printf("\nA media dos numeros digitados foi: %f ", soma/total);
     }
 
-   
+
     
 }
 
