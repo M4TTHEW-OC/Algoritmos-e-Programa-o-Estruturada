@@ -23,4 +23,5 @@
         printf("O total de numeros foi de %d", contador);
 
         return 0;
+        
     }
