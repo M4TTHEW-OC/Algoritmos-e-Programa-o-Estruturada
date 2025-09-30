@@ -2,7 +2,7 @@
  
 int main (){
 
-    float l1, l2, l3, tringulo;
+    float l1, l2, l3;
 
     printf("Informe o Lado 1 do seu Triangulo:\n");
     scanf("%f", &l1);
